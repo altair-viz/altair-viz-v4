@@ -1,0 +1,86 @@
+/* override table width restrictions */
+@media screen and (min-width: 767px) {
+  .wy-table-responsive table td {
+    /* !important prevents the common CSS stylesheets from overriding
+           this as on RTD they are loaded after this stylesheet */
+    white-space: normal !important;
+  }
+  .wy-table-responsive {
+    overflow: visible !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wy-nav-content-wrap.shift {
+    /* !important prevents the common CSS stylesheets from overriding
+           this as on RTD they are loaded after this stylesheet */
+    top: unset !important;
+  }
+}
+
+.announcement {
+  height: 38px;
+}
+
+.wy-nav-side {
+  top: 38px;
+}
+
+.wy-grid-for-nav {
+  margin-top: 38px;
+}
+
+@media (max-width: 900px) {
+  .announcement {
+    height: 34px;
+  }
+
+  .wy-nav-side {
+    top: 34px;
+  }
+
+  .wy-grid-for-nav {
+    margin-top: 34px;
+  }
+}
+
+@media (max-width: 587px) {
+  .announcement {
+    height: 50px;
+  }
+
+  .wy-nav-side {
+    top: 50px;
+  }
+
+  .wy-grid-for-nav {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 298px) {
+  .announcement {
+    height: 68px;
+  }
+
+  .wy-nav-side {
+    top: 68px;
+  }
+
+  .wy-grid-for-nav {
+    margin-top: 68px;
+  }
+}
+
+.rst-content dl:not(.docutils) dt em {
+  font-style: normal !important;
+  line-height: 1.4em !important;
+}
+
+.rst-content div[class^="highlight"] {
+  background: #fff !important;
+}
+
+img.logo {
+  width: 120px !important;
+}

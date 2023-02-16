@@ -1,0 +1,51 @@
+.wy-nav-side p.caption {
+  color: #f5f5f5;
+}
+
+div.wy-side-nav-search {
+  background: #757575;
+}
+
+div.wy-side-nay {
+  background: #212121;
+}
+
+table.field-list td li {
+  line-height: 18px;
+}
+
+table.docutils td p {
+  font-size: 14px !important;
+  margin-bottom: 6px;
+}
+
+table.docutils td li {
+  line-height: 18px;
+}
+
+.announcement {
+  padding: 0.6em 0;
+  background-color: #b53e3e;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+@media (max-width: 900px) {
+  .announcement {
+    font-size: 14px;
+  }
+}
+
+.announcement a {
+  color: white;
+  text-decoration: underline;
+}
